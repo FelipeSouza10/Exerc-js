@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade EBAC - JS</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>Preenchimento de Dados</h1>
+        <form id="form-validate">
+            <label for="field-a" >Campo A</label>
+            <input id="field-a" min="1" type="number" autocomplete="off" placeholder="Digite um valor" required>
+            <p id="message-field-a" class="message">Error</p>
+
+            <label for="field-b">Campo B</label>
+            <input id="field-b" min="1" type="number" autocomplete="off" placeholder="Digite um valor" required>
+            <p id="message-field-b" class="message">Error</p>
+            
+            <button type="submit">Enviar</button>
+            <p id="sucess-message" class="message">Sucesso</p>
+
+        </form>
+        </div>
+
+            <script src="./start.js"></script>
+</body>
+</html>
